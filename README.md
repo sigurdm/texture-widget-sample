@@ -1,8 +1,4 @@
-# hello_blah
+# Texture widget sample
 
-A new Flutter project.
+A flutter program using the Texture widget
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](http://flutter.io/).
