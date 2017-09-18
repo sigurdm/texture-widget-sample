@@ -82,8 +82,16 @@ void main() {
           new Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              new SizedBox(
-                  width: 280.0, height: 210.0, child: new TextureHolder()),
+              new Stack(
+                  alignment: FractionalOffset.bottomRight,
+                  children: <Widget>[
+                    new SizedBox(
+                      width: 280.0,
+                      height: 210.0,
+                      child: new TextureHolder(),
+                    ),
+                    new Image.asset('assets/flutter-mark-square-64.png'),
+                  ]),
               new Text(
                 "video video!",
               ),
